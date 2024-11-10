@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(187, 234, 253);
+    padding: 20px;
+}
+
+h1{
+
+    font-family:cursive;
+    color: rgb(39, 7, 181);
+    text-align: center;
+    margin-left: 20px;
+    margin-right:20px;
+    padding-top:20px;
+
+}
+
+div{
+   font-size: 25px;
+   color: rgb(39,7,181);
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+
+h2{
+    font-family:cursive;
+}
+
+label {
+    border: 12px solid rgba(76, 130, 239, 0.793);
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: rgb(39,7, 181);
+    font-family: cursive;
+    margin-left: 20px;
+    background-color: rgb(156, 212, 255);
+}
+input{
+    border: 12px solid rgb(76, 130, 239, 0.793);
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: rgb(39,7, 181);
+    font-family: cursive;
+    background-color: rgb(156, 212, 255);
+    margin-left: 20px;
+}
+
+button{
+    border: 12px solid rgba(76, 130, 239, 0.793);
+    border-radius: 30px;
+    padding: 5px 20px;
+    background-color: rgb(156, 212, 255);
+}
+
+img{
+    background-color: rgb(156, 212, 255);
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;  
+}
