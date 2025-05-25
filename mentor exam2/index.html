@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Gallery</h1>
+        <input type="text" id="searchBar" placeholder="Search for movies...">
+    </header>
+    <main>
+        <div class="grid-container" id="movieGrid">
+            
+            <div class="movie-card">
+                <img src="/mentor exam2/images/the amaizing spider man.png" alt="Movie Title 1">
+                <h2>The Amaizing Spider-Man/საოცარი ადამიანი ობობა</h2>
+                <p>Rating: 8.5</p>
+                <button class="details-btn" onclick="openDetails('The Amaizing Spider-Man: ')">Details</button>
+            </div>
+            <div class="movie-card">
+                <img src="/mentor exam2/images/a bronx tale.png" alt="Movie Title 2">
+                <h2>a Bronx Tale/ბრონქსის ისტორია</h2>
+                <p>Rating: 7.2</p>
+                <button class="details-btn" onclick="openDetails('ფილმში ორის სხვადასხვა ტიპის ')">Details</button>
+            </div>
+            <div class="movie-card">
+                <img src="/mentor exam2/images/mazerunner.png" alt="Movie Title 3">
+                <h2>Maze Runner/ლაბერინთში მორბენალი</h2>
+                <p>Rating: 9.0</p>
+                <button class="details-btn" onclick="openDetails('ეს ფილმი მოგვითრობს როგორ უნდა გადარჩე შუა ლაბერინთში და იმას რომ ბრძოლას ყოველთვის აქვს აზრი')">Details</button>
+            </div>
+            <div class="movie-card">
+                <img src="/mentor exam2/images/Shazam!.png" alt="Movie Title 4">
+                <h2>Shazam!/შაზამი!</h2>
+                <p>Rating: 6.8</p>
+                <button class="details-btn" onclick="openDetails('სუპერმენის მსგავსი სუპერგმირი ბევრად ხალისიანი და ამავე დროს თინეიჯერული ცხოვრებით ნაკლებად დაინტერესებული')">Details</button>
+            </div>
+            <div class="movie-card">
+                <img src="/mentor exam2/images/Teen Wolf.png" alt="Movie Title 5">
+                <h2>Teen Wolf/თინეიჯერი მგელი</h2>
+                <p>Rating: 7.5</p>
+                <button class="details-btn" onclick="openDetails('ფილმი არის დაფურძნებული სერიალ თინეიჯერ მგელზე საიდანაც რამოდენიმე მეგობარი კვლავ ერთადაა და ცდილობენ დაიცვან ერთმანეთი')">Details</button>
+            </div>
+            <div class="movie-card">
+                <img src="/mentor exam2/images/batman vs superman .png" alt="Movie Title 6">
+                <h2>Batman VS Superman/ბეტმენისუპერმენის წინააღმდეგ </h2>
+                <p>Rating: 8.0</p>
+                <button class="details-btn" onclick="openDetails('დისის ყველა დროის მეტოქეები ბეტმენი და სუპერმენი სუპერ ძალა ფულის წინააღმდეგ? ყველაზე ხშირად დასმული კითხვა')">Details</button>
+            </div>
+            <div class="movie-card">
+                <img src="/mentor exam2/images/maleficent.png" alt="Movie Title 7">
+                <h2>Malficent/მალეფისენტი</h2>
+                <p>Rating: 7.9</p>
+                <button class="details-btn" onclick="openDetails('მალეფისენტი ერთ დროს ცნობილი ფერია რომელიც გაბოროტდა სიყვარულის გამო რადგან ის ვერ დააფასეს')">Details</button>
+            </div>
+            <div class="movie-card">
+                <img src="/mentor exam2/images/deadpool and wolverine.png" alt="Movie Title 8">
+                <h2>Deadpool and Wolverine/დეტპული და სამურავი</h2>
+                <p>Rating: 8.3</p>
+                <button class="details-btn" onclick="openDetails('დეტპულის და სამურავის დუეტი ბევრს უნდოდა სწორედ ამიტომ მარველმა ეს ფილმი გადაიღო და ფანებს ოცნება აუხდინა რასაც ამდენი ხანი ელოდნენ')">Details</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
