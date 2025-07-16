@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline-color: rgb(47, 47, 47);
+}
